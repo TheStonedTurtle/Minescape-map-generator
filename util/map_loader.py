@@ -1,7 +1,9 @@
+import os
+import json
 from typing import TextIO
 
 from util.file_util import read_unsigned_byte
-from util.region import Region, Tile
+from util.region import Region, Tile, Location
 
 
 def load_terrain(region: Region, file: TextIO):
@@ -30,3 +32,18 @@ def load_terrain(region: Region, file: TextIO):
 
                 region.tiles[z, x, y] = tile
 
+
+def load_objects(region: Region, path: str):
+    filename = os.path.join(path, "I%s_%s.json" % (region.X, region.Y))
+    if not os.path.exists(filename):
+        return
+
+    with open(filename, 'r') as f:
+        data = json.loads(f.read())
+        locations = data['locations']
+        for locationDict in locations:
+            pos = locationDict['position']
+            tile: Tile = region.tiles[pos['z'], pos['x'], pos['y']]
+            location = Location(locationDict['id'], locationDict['type'], locationDict['orientation'])
+
+            tile.objects.append(location)

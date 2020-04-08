@@ -10,7 +10,7 @@ from amulet.world_interface import load_world
 
 from util.color_util import block_from_tile, process_tile
 from util.file_util import handle_files
-from util.map_loader import load_terrain
+from util.map_loader import load_terrain, load_objects
 from util.mc_util import set_block, initialize_world
 from util.region import Region
 
@@ -28,6 +28,7 @@ if __name__ == "__main__":
     if args.test:
         path = "testdata/"
     mapPath = os.path.join(path, "tiledata")
+    xteaPath = os.path.join(path, "xtea")
     regions = []
     pattern = re.compile("m(\d+)_(\d+).dat")
     for filename in os.listdir(mapPath):
@@ -37,6 +38,7 @@ if __name__ == "__main__":
             regionY = match.group(2)
             region = Region(int(regionX), int(regionY))
             load_terrain(region, f)
+            load_objects(region, xteaPath)
             regions.append(region)
             f.close()
 

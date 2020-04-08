@@ -1,5 +1,6 @@
 import numpy
 
+
 class Region:
     def __init__(self, X: int, Y: int):
         self.X = X
@@ -16,4 +17,11 @@ class Tile:
         self.overlay_rotation = 0
         self.underlay_id = 0
         self.attribute_opcode = 0
+        self.objects = []
 
+
+class Location:
+    def __init__(self, id: int, type: int, orientation: int):
+        self.id = id
+        self.type = type
+        self.orientation = orientation
