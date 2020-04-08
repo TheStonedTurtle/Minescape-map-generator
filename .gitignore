@@ -3,3 +3,4 @@ venv
 .idea
 world_temp
 output
+**/__pycache__/
