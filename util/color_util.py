@@ -63,7 +63,6 @@ def block_from_tile(underlay_id: int, overlay_id: int) -> Optional[str]:
         return result
 
     if overlay_id != 0:
-        print("Overlay id not handled: " + str(overlay_id))
         return "stone"
 
     if underlay_id == 0:
@@ -81,5 +80,4 @@ def block_from_tile(underlay_id: int, overlay_id: int) -> Optional[str]:
     if result is not None:
         return result
 
-    print("Underlay id not handled: " + str(underlay_id))
     return "grass_block"
