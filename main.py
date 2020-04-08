@@ -1,5 +1,10 @@
 import os
 import re
+import argparse
+parser = argparse.ArgumentParser(description="Generates an RuneScape themed MineCraft world from the OSRS map data")
+parser.add_argument("--test", action="store_true",
+                    help="Limits the data used for generating the map to the testdata directory")
+args = parser.parse_args()
 
 from amulet.world_interface import load_world
 
@@ -19,11 +24,14 @@ if __name__ == "__main__":
     initialize_world(world)
     # set_block(world, 0, 64, 0)
     # world.save()
-    path = "rscachedump/tiledata"
+    path = "rscachedump/"
+    if args.test:
+        path = "testdata/"
+    mapPath = os.path.join(path, "tiledata")
     regions = []
     pattern = re.compile("m(\d+)_(\d+).dat")
-    for filename in os.listdir(path):
-        with open(os.path.join(path, filename), 'rb') as f:
+    for filename in os.listdir(mapPath):
+        with open(os.path.join(mapPath, filename), 'rb') as f:
             match = pattern.match(filename)
             regionX = match.group(1)
             regionY = match.group(2)
