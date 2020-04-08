@@ -1,4 +1,5 @@
 from math import floor
+from typing import Optional
 
 from amulet.api.world import World
 
@@ -48,33 +49,37 @@ def rs_height_to_mc(height: int) -> int:
     return BASE_MINECRAFT_FLOOR_SIZE + floor(height / SCALE)
 
 # todo: this is def just jank to test with, will be replaced
-def block_from_tile(underlay_id: int, overlay_id: int) -> str:
+def block_from_tile(underlay_id: int, overlay_id: int) -> Optional[str]:
+    overlay_switcher = {
+        5: "planks",  # todo dark oak or different type
+        6: "water",
+        10: "stone",
+        14: "dirt",
+        22: "dirt"
+    }
 
-    if overlay_id == 6:
-        return "water"
-    if overlay_id == 22:
-        return "dirt"
-    if overlay_id == 14:
-        return "dirt"
-    if overlay_id == 10:
-        return "stone"
-    if overlay_id == 5:
-        return "planks" #todo dark oak or different type
+    result = overlay_switcher.get(overlay_id, None)
+    if result is not None:
+        return result
+
     if overlay_id != 0:
-        # print("Overlay id not handled: " + str(overlay_id))
+        print("Overlay id not handled: " + str(overlay_id))
         return "stone"
-    if underlay_id == 50:
-        return "grass_block"
-    if underlay_id == 48:
-        return "grass_block"
-    if underlay_id == 63:
-        return "grass_block"
-    if underlay_id == 64:
-        return "grass_block"
-    if underlay_id == 65:
-        return "grass_block"
-    # if underlay_id != 0:
-    #     print("Underlay id not handled: " + str(underlay_id))
+
     if underlay_id == 0:
         return None
+
+    underlay_switcher = {
+        48: "grass_block",
+        50: "grass_block",
+        63: "grass_block",
+        64: "grass_block",
+        65: "grass_block"
+    }
+
+    result = underlay_switcher.get(underlay_id, None)
+    if result is not None:
+        return result
+
+    print("Underlay id not handled: " + str(underlay_id))
     return "grass_block"
