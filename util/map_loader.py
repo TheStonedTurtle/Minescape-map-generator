@@ -3,7 +3,7 @@ import json
 from typing import TextIO
 
 from util.file_util import read_unsigned_byte
-from util.region import Region, Tile, Location
+from util.region import Region, Tile, RsObject
 
 
 def load_terrain(region: Region, file: TextIO):
@@ -44,6 +44,6 @@ def load_objects(region: Region, path: str):
         for locationDict in locations:
             pos = locationDict['position']
             tile: Tile = region.tiles[pos['z'], pos['x'], pos['y']]
-            location = Location(locationDict['id'], locationDict['type'], locationDict['orientation'])
+            obj = RsObject(locationDict['id'], locationDict['type'], locationDict['orientation'])
 
-            tile.objects.append(location)
+            tile.objects.append(obj)
