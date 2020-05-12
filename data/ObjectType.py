@@ -1,8 +1,5 @@
 from enum import Enum
 
-from amulet import Block, amulet_nbt
-from amulet_nbt import BaseValueType
-
 
 class ObjectType(Enum):
     SINGLE_WALL = [0, 1]
