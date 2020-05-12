@@ -1,18 +1,19 @@
+import argparse
 import os
 import re
-import argparse
+
+from amulet.world_interface import load_world
+
+from data import Region
+from util.color_util import process_tile
+from util.file_util import handle_files
+from util.map_loader import load_terrain, load_objects
+from util.mc_util import initialize_world
+
 parser = argparse.ArgumentParser(description="Generates an RuneScape themed MineCraft world from the OSRS map data")
 parser.add_argument("--test", action="store_true",
                     help="Limits the data used for generating the map to the testdata directory")
 args = parser.parse_args()
-
-from amulet.world_interface import load_world
-
-from util.color_util import block_from_tile, process_tile
-from util.file_util import handle_files
-from util.map_loader import load_terrain, load_objects
-from util.mc_util import set_block, initialize_world
-from data import Region
 
 if __name__ == "__main__":
     empty_world_path = "resources/emptymap"
