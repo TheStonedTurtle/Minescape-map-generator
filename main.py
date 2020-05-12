@@ -12,7 +12,7 @@ from util.color_util import block_from_tile, process_tile
 from util.file_util import handle_files
 from util.map_loader import load_terrain, load_objects
 from util.mc_util import set_block, initialize_world
-from util.region import Region
+from data import Region
 
 if __name__ == "__main__":
     empty_world_path = "resources/emptymap"
