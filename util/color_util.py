@@ -2,9 +2,10 @@ from math import floor
 from typing import Optional
 
 from amulet.api.world import World
+from amulet_nbt import TAG_String
 
 from util.mc_util import set_blocks, set_block
-from util.region import Tile, Region
+from data import Tile, Region, RsObject, ObjectType
 
 
 def process_tile(world: World, z: int, x: int, y: int, regions: Region, region: Region):
@@ -21,7 +22,7 @@ def process_tile(world: World, z: int, x: int, y: int, regions: Region, region: 
             base_height = basetile.height
             break
 
-    if (base_height is None):
+    if base_height is None:
         base_height = 0
         i = 0
 
@@ -33,20 +34,53 @@ def process_tile(world: World, z: int, x: int, y: int, regions: Region, region: 
     block = block_from_tile(tile.underlay_id, tile.overlay_id)
 
     if block is not None and height is not None:
-        if z is 0:
-            set_blocks(world, x + baseX, height, -(y + baseY), block)
+        if tile.is_bridge():
+            block = "glass"
+        elif len(tile.objects) > 0:
+            block = "granite"
+        if z == 0:
+            set_blocks(world, x + baseX, height, -(y + baseY), block, 7, None, True)
 
-            if block is "water":
-                set_blocks(world, x + baseX, height - 1, -(y + baseY), "dirt")
+            if block == "water":
+                set_blocks(world, x + baseX, height - 1, -(y + baseY), "dirt", 7, None, True)
         else:
             set_block(world, x + baseX, height, -(y + baseY), block)
 
+    if len(tile.objects) > 0:
+        obj: RsObject
+        for obj in tile.objects:
+            block = "bedrock"
+            block_opts = None
+            if obj.type == ObjectType.SINGLE_WALL:
+                block = "fence"
+                block_opts = {"material": TAG_String("oak")}
+                set_blocks(world, x + baseX, height + 2, -(y + baseY), block, 2, block_opts)
+                continue
+            elif obj.type == ObjectType.CORNER_WALL:
+                block = "fence"
+                block_opts = {"material": TAG_String("dark_oak")}
+                set_blocks(world, x + baseX, height + 2, -(y + baseY), block, 2, block_opts)
+                continue
+            elif obj.type == ObjectType.BOUNDARY_DECORATIVE:
+                block = "sponge"
+            elif obj.type == ObjectType.WALL_DECORATIVE:
+                block = "sign"
+                block_opts = {"material": TAG_String("oak")}
+            elif obj.type == ObjectType.GROUND:
+                block = "plant"
+                block_opts = {"type": TAG_String("poppy")}
+            elif obj.type == ObjectType.GAME:
+                block = "wool"
+
+            set_block(world, x + baseX, height + 1, -(y + baseY), block, block_opts)
+
 
 def rs_height_to_mc(height: int) -> int:
-    SCALE = 30  # how many RS units = 1 block for height
+    SCALE = 32  # how many RS units = 1 block for height
     BASE_MINECRAFT_FLOOR_SIZE = 64  # what block height = 0 should be at
 
     return BASE_MINECRAFT_FLOOR_SIZE + floor(height / SCALE)
+
 
 # todo: this is def just jank to test with, will be replaced
 def block_from_tile(underlay_id: int, overlay_id: int) -> Optional[str]:

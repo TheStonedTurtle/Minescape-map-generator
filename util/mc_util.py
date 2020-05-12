@@ -17,7 +17,8 @@ def initialize_world(world: World):
         for z in range(minz, maxz):
             world.put_chunk(Chunk(x, z))
 
-def set_block(world: World, x: int, y: int, z: int, block: str):
+
+def set_block(world: World, x: int, y: int, z: int, block: str, options=None):
     if not (0 <= y <= 255):
         raise IndexError("The supplied Y coordinate must be between 0 and 255")
 
@@ -30,11 +31,11 @@ def set_block(world: World, x: int, y: int, z: int, block: str):
         chunk = world.get_chunk(cx, cz)
 
     offset_x, offset_z = x - 16 * cx, z - 16 * cz
-    chunk.blocks[offset_x, y, offset_z] = world.palette.get_add_block(Block(namespace="universal_minecraft", base_name=block))
+    chunk.blocks[offset_x, y, offset_z] = world.palette.get_add_block(Block(namespace="universal_minecraft", base_name=block, properties=options))
     # print("set block x: " + str(x) + " y: " + str(y) + " z: " + str(z) + " to block " + block)
     chunk.changed = True
 
 
-def set_blocks(world: World, x: int, y: int, z: int, block: str):
-    for i in range(0, 7):
-        set_block(world, x, y - i, z, block)
+def set_blocks(world: World, x: int, y: int, z: int, block: str, amount, block_options=None, downward=False):
+    for i in range(0, amount):
+        set_block(world, x, y + (-i if downward else i), z, block, block_options)
