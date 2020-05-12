@@ -3,7 +3,7 @@ import json
 from typing import TextIO
 
 from util.file_util import read_unsigned_byte
-from util.region import Region, Tile, RsObject
+from data import Region, Tile, RsObject
 
 
 def load_terrain(region: Region, file: TextIO):
