@@ -24,7 +24,7 @@ def generate_block_data_json():
                     options = obj['options']
 
                     if func == "new_block":
-                        file_data["name"] = options
+                        file_data["name"] = options.replace("universal_minecraft:", "")
                     elif func == "new_properties":
                         file_data["options"] = options
                         if "material" in options:
