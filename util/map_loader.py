@@ -30,11 +30,11 @@ def load_terrain(region: Region, file: TextIO):
                     else:
                         tile.underlay_id = attribute - 81
 
-                region.tiles[z, x, y] = tile
+                region.tiles[z][x][y] = tile
 
 
 def load_objects(region: Region, path: str):
-    filename = os.path.join(path, "I%s_%s.json" % (region.X, region.Y))
+    filename = os.path.join(path, "I%s_%s.json" % (region.x, region.y))
     if not os.path.exists(filename):
         return
 
@@ -43,7 +43,7 @@ def load_objects(region: Region, path: str):
         locations = data['locations']
         for locationDict in locations:
             pos = locationDict['position']
-            tile: Tile = region.tiles[pos['z'], pos['x'], pos['y']]
+            tile: Tile = region.tiles[pos['z']][pos['x']][pos['y']]
             obj = RsObject(locationDict['id'], locationDict['type'], locationDict['orientation'])
 
             tile.objects.append(obj)
