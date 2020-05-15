@@ -2,7 +2,7 @@ import json
 from collections import namedtuple
 from typing import Optional
 
-from data.Block import Block
+from data import MinecraftBlock
 
 
 class BlockManager:
@@ -11,7 +11,7 @@ class BlockManager:
     def __init__(self):
         self.blocks = json.load(open(self.FILENAME))
 
-    def get_block_data(self, block_name: str) -> Optional[Block]:
+    def get_block_data(self, block_name: str) -> Optional[MinecraftBlock]:
         if block_name not in self.blocks:
             return None
 

@@ -1,4 +1,4 @@
-class Block:
+class MinecraftBlock:
     def __init__(self):
         self.name = ""
         self.material = None

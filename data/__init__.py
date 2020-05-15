@@ -1,4 +1,5 @@
 from .FaceData import FaceData
+from .MinecraftBlock import MinecraftBlock
 from .ModelData import ModelData
 from .ModelSection import ModelSection
 from .ObjectData import ObjectData

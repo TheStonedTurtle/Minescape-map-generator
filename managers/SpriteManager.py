@@ -3,7 +3,7 @@ from typing import List, Tuple, Dict
 import cv2
 
 from blocks.MinecraftBlocks import MinecraftBlocks
-from data.Block import Block
+from data import MinecraftBlock
 from managers import BlockManager
 
 IMAGE_SIZE = 16
@@ -53,11 +53,11 @@ class SpriteManager:
         return rgb
 
     def averageMinecraftBlockColors(self, blocks: List[Tuple[str, int]] = MinecraftBlocks)\
-            -> Dict[Block, Tuple[int, int, int]]:
+            -> Dict[MinecraftBlock, Tuple[int, int, int]]:
         color_map = {}
         for block_data in blocks:
             color = self.averageSpriteRgbColor(block_data[1])
-            block: Block = BLOCK_MANAGER.get_block_data(block_data[0])
+            block: MinecraftBlock = BLOCK_MANAGER.get_block_data(block_data[0])
             color_map[block] = color
 
         return color_map

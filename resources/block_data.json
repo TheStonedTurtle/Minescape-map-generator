@@ -18,7 +18,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"acacia\""
     }
@@ -49,7 +49,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"acacia\""
     },
@@ -75,7 +75,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"acacia\""
     },
@@ -103,7 +103,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"acacia\""
     },
@@ -122,7 +122,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"acacia\""
     },
@@ -137,7 +137,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"acacia\"",
       "stripped": "\"false\""
@@ -145,7 +145,7 @@
   },
   "acacia_planks": {
     "material": "\"acacia\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"acacia\""
     },
@@ -159,7 +159,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"acacia\""
     }
@@ -172,7 +172,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"acacia\""
     },
@@ -200,7 +200,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"acacia\""
     }
@@ -214,7 +214,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"acacia\""
     },
@@ -241,7 +241,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"acacia\""
     },
@@ -269,7 +269,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"acacia\""
     }
@@ -284,7 +284,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"acacia\""
     }
@@ -298,7 +298,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"acacia\"",
       "stripped": "\"false\""
@@ -320,22 +320,22 @@
         "\"ascending_south\""
       ]
     },
-    "name": "universal_minecraft:activator_rail",
+    "name": "activator_rail",
     "sprite_idx": 1768
   },
   "air": {
-    "name": "universal_minecraft:air",
+    "name": "air",
     "sprite_idx": 40
   },
   "allium": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"allium\""
     },
     "sprite_idx": 1690
   },
   "andesite": {
-    "name": "universal_minecraft:andesite",
+    "name": "andesite",
     "options": {
       "polished": "\"false\""
     },
@@ -350,7 +350,7 @@
       ]
     },
     "material": "\"andesite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"andesite\""
     }
@@ -376,7 +376,7 @@
       ]
     },
     "material": "\"andesite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"andesite\""
     }
@@ -389,7 +389,7 @@
       ]
     },
     "material": "\"andesite\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"andesite\""
     }
@@ -403,7 +403,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:anvil",
+    "name": "anvil",
     "options": {
       "damage": "\"normal\""
     },
@@ -418,7 +418,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:attached_melon_stem"
+    "name": "attached_melon_stem"
   },
   "attached_pumpkin_stem": {
     "carry_options": {
@@ -429,10 +429,10 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:attached_pumpkin_stem"
+    "name": "attached_pumpkin_stem"
   },
   "azure_bluet": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"azure_bluet\""
     },
@@ -450,10 +450,10 @@
         "\"1\""
       ]
     },
-    "name": "universal_minecraft:bamboo"
+    "name": "bamboo"
   },
   "bamboo_sapling": {
-    "name": "universal_minecraft:bamboo_sapling"
+    "name": "bamboo_sapling"
   },
   "barrel": {
     "carry_options": {
@@ -470,18 +470,18 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:barrel"
+    "name": "barrel"
   },
   "barrier": {
-    "name": "universal_minecraft:barrier",
+    "name": "barrier",
     "sprite_idx": 1844
   },
   "beacon": {
-    "name": "universal_minecraft:beacon",
+    "name": "beacon",
     "sprite_idx": 1854
   },
   "bedrock": {
-    "name": "universal_minecraft:bedrock",
+    "name": "bedrock",
     "sprite_idx": 1245
   },
   "bee_nest": {
@@ -501,7 +501,7 @@
         "\"5\""
       ]
     },
-    "name": "universal_minecraft:bee_nest"
+    "name": "bee_nest"
   },
   "beehive": {
     "carry_options": {
@@ -520,10 +520,10 @@
         "\"5\""
       ]
     },
-    "name": "universal_minecraft:beehive"
+    "name": "beehive"
   },
   "beetroots": {
-    "name": "universal_minecraft:beetroots",
+    "name": "beetroots",
     "sprite_idx": 1719
   },
   "bell": {
@@ -545,7 +545,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:bell"
+    "name": "bell"
   },
   "birch_button": {
     "carry_options": {
@@ -566,7 +566,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"birch\""
     }
@@ -597,7 +597,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"birch\""
     },
@@ -623,7 +623,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"birch\""
     },
@@ -651,7 +651,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"birch\""
     },
@@ -670,7 +670,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"birch\""
     },
@@ -685,7 +685,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"birch\"",
       "stripped": "\"false\""
@@ -694,7 +694,7 @@
   },
   "birch_planks": {
     "material": "\"birch\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"birch\""
     },
@@ -708,7 +708,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"birch\""
     }
@@ -721,7 +721,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"birch\""
     },
@@ -749,7 +749,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"birch\""
     }
@@ -763,7 +763,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"birch\""
     },
@@ -790,7 +790,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"birch\""
     },
@@ -818,7 +818,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"birch\""
     }
@@ -833,7 +833,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"birch\""
     }
@@ -847,7 +847,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"birch\"",
       "stripped": "\"false\""
@@ -874,7 +874,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"black\""
     }
@@ -896,27 +896,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"black\""
     }
   },
   "black_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"black\""
     },
     "sprite_idx": 1097
   },
   "black_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"black\""
     },
     "sprite_idx": 638
   },
   "black_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"black\""
     },
@@ -931,7 +931,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"black\""
     },
@@ -948,14 +948,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"black\""
     },
     "sprite_idx": 609
   },
   "black_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"black\""
     },
@@ -980,14 +980,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"black\""
     },
     "sprite_idx": 572
   },
   "black_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"black\""
     },
@@ -1002,13 +1002,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"black\""
     }
   },
   "black_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"black\""
     },
@@ -1027,7 +1027,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:blast_furnace"
+    "name": "blast_furnace"
   },
   "blue_banner": {
     "carry_options": {
@@ -1050,7 +1050,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"blue\""
     }
@@ -1072,27 +1072,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"blue\""
     }
   },
   "blue_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"blue\""
     },
     "sprite_idx": 1098
   },
   "blue_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"blue\""
     },
     "sprite_idx": 649
   },
   "blue_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"blue\""
     },
@@ -1107,17 +1107,17 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"blue\""
     },
     "sprite_idx": 681
   },
   "blue_ice": {
-    "name": "universal_minecraft:blue_ice"
+    "name": "blue_ice"
   },
   "blue_orchid": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"blue_orchid\""
     },
@@ -1134,14 +1134,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"blue\""
     },
     "sprite_idx": 621
   },
   "blue_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"blue\""
     },
@@ -1166,14 +1166,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"blue\""
     },
     "sprite_idx": 568
   },
   "blue_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"blue\""
     },
@@ -1188,13 +1188,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"blue\""
     }
   },
   "blue_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"blue\""
     },
@@ -1208,29 +1208,29 @@
         "\"z\""
       ]
     },
-    "name": "universal_minecraft:bone_block",
+    "name": "bone_block",
     "sprite_idx": 1246
   },
   "bookshelf": {
-    "name": "universal_minecraft:bookshelf",
+    "name": "bookshelf",
     "sprite_idx": 1410
   },
   "brain_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"false\"",
       "type": "\"brain\""
     }
   },
   "brain_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"false\"",
       "type": "\"brain\""
     }
   },
   "brain_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "facing": "\"up\"",
@@ -1246,7 +1246,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "type": "\"brain\""
@@ -1267,7 +1267,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:brewing_stand",
+    "name": "brewing_stand",
     "sprite_idx": 1529
   },
   "brick_slab": {
@@ -1279,7 +1279,7 @@
       ]
     },
     "material": "\"brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"brick\""
     },
@@ -1306,7 +1306,7 @@
       ]
     },
     "material": "\"brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"brick\""
     },
@@ -1320,13 +1320,13 @@
       ]
     },
     "material": "\"brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"brick\""
     }
   },
   "bricks": {
-    "name": "universal_minecraft:brick_block",
+    "name": "brick_block",
     "sprite_idx": 1411
   },
   "brown_banner": {
@@ -1350,7 +1350,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"brown\""
     }
@@ -1372,27 +1372,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"brown\""
     }
   },
   "brown_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"brown\""
     },
     "sprite_idx": 1099
   },
   "brown_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"brown\""
     },
     "sprite_idx": 653
   },
   "brown_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"brown\""
     },
@@ -1407,14 +1407,14 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"brown\""
     },
     "sprite_idx": 685
   },
   "brown_mushroom": {
-    "name": "universal_minecraft:brown_mushroom",
+    "name": "brown_mushroom",
     "sprite_idx": 1723
   },
   "brown_mushroom_block": {
@@ -1444,7 +1444,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:brown_mushroom_block",
+    "name": "brown_mushroom_block",
     "sprite_idx": 1724
   },
   "brown_shulker_box": {
@@ -1458,14 +1458,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"brown\""
     },
     "sprite_idx": 624
   },
   "brown_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"brown\""
     },
@@ -1490,14 +1490,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"brown\""
     },
     "sprite_idx": 569
   },
   "brown_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"brown\""
     },
@@ -1512,13 +1512,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"brown\""
     }
   },
   "brown_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"brown\""
     },
@@ -1531,24 +1531,24 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:bubble_column"
+    "name": "bubble_column"
   },
   "bubble_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"false\"",
       "type": "\"bubble\""
     }
   },
   "bubble_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"false\"",
       "type": "\"bubble\""
     }
   },
   "bubble_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "facing": "\"up\"",
@@ -1564,7 +1564,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "type": "\"bubble\""
@@ -1591,7 +1591,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:cactus",
+    "name": "cactus",
     "sprite_idx": 1420
   },
   "cake": {
@@ -1606,7 +1606,7 @@
         "\"6\""
       ]
     },
-    "name": "universal_minecraft:cake",
+    "name": "cake",
     "sprite_idx": 1837
   },
   "campfire": {
@@ -1626,7 +1626,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:campfire"
+    "name": "campfire"
   },
   "carrots": {
     "carry_options": {
@@ -1641,11 +1641,11 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:carrots",
+    "name": "carrots",
     "sprite_idx": 1725
   },
   "cartography_table": {
-    "name": "universal_minecraft:cartography_table"
+    "name": "cartography_table"
   },
   "carved_pumpkin": {
     "carry_options": {
@@ -1656,7 +1656,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:carved_pumpkin"
+    "name": "carved_pumpkin"
   },
   "cauldron": {
     "carry_options": {
@@ -1667,11 +1667,11 @@
         "\"3\""
       ]
     },
-    "name": "universal_minecraft:cauldron",
+    "name": "cauldron",
     "sprite_idx": 1532
   },
   "cave_air": {
-    "name": "universal_minecraft:cave_air"
+    "name": "cave_air"
   },
   "chain_command_block": {
     "carry_options": {
@@ -1688,7 +1688,7 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:command_block",
+    "name": "command_block",
     "options": {
       "mode": "\"chain\""
     },
@@ -1708,7 +1708,7 @@
         "\"right\""
       ]
     },
-    "name": "universal_minecraft:chest",
+    "name": "chest",
     "sprite_idx": 142
   },
   "chipped_anvil": {
@@ -1720,31 +1720,31 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:anvil",
+    "name": "anvil",
     "options": {
       "damage": "\"chipped\""
     }
   },
   "chiseled_quartz_block": {
-    "name": "universal_minecraft:chiseled_quartz_block",
+    "name": "chiseled_quartz_block",
     "sprite_idx": 1518
   },
   "chiseled_red_sandstone": {
-    "name": "universal_minecraft:red_sandstone",
+    "name": "red_sandstone",
     "options": {
       "variant": "\"chiseled\""
     },
     "sprite_idx": 1248
   },
   "chiseled_sandstone": {
-    "name": "universal_minecraft:sandstone",
+    "name": "sandstone",
     "options": {
       "variant": "\"chiseled\""
     },
     "sprite_idx": 1249
   },
   "chiseled_stone_bricks": {
-    "name": "universal_minecraft:stone_bricks",
+    "name": "stone_bricks",
     "options": {
       "variant": "\"chiseled\""
     },
@@ -1761,7 +1761,7 @@
         "\"5\""
       ]
     },
-    "name": "universal_minecraft:chorus_flower",
+    "name": "chorus_flower",
     "sprite_idx": 1730
   },
   "chorus_plant": {
@@ -1791,27 +1791,27 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:chorus_plant",
+    "name": "chorus_plant",
     "sprite_idx": 1732
   },
   "clay": {
-    "name": "universal_minecraft:clay",
+    "name": "clay",
     "sprite_idx": 1318
   },
   "coal_block": {
-    "name": "universal_minecraft:coal_block",
+    "name": "coal_block",
     "sprite_idx": 1397
   },
   "coal_ore": {
-    "name": "universal_minecraft:coal_ore",
+    "name": "coal_ore",
     "sprite_idx": 1389
   },
   "coarse_dirt": {
-    "name": "universal_minecraft:coarse_dirt",
+    "name": "coarse_dirt",
     "sprite_idx": 480
   },
   "cobblestone": {
-    "name": "universal_minecraft:cobblestone",
+    "name": "cobblestone",
     "sprite_idx": 1251
   },
   "cobblestone_slab": {
@@ -1823,7 +1823,7 @@
       ]
     },
     "material": "\"cobblestone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"cobblestone\""
     },
@@ -1850,7 +1850,7 @@
       ]
     },
     "material": "\"cobblestone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"cobblestone\""
     },
@@ -1864,14 +1864,14 @@
       ]
     },
     "material": "\"cobblestone\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"cobblestone\""
     },
     "sprite_idx": 1439
   },
   "cobweb": {
-    "name": "universal_minecraft:cobweb",
+    "name": "cobweb",
     "sprite_idx": 1252
   },
   "cocoa": {
@@ -1888,7 +1888,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:cocoa",
+    "name": "cocoa",
     "sprite_idx": 1733
   },
   "command_block": {
@@ -1906,7 +1906,7 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:command_block",
+    "name": "command_block",
     "options": {
       "mode": "\"impulse\""
     },
@@ -1929,7 +1929,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:comparator",
+    "name": "comparator",
     "sprite_idx": 1822
   },
   "composter": {
@@ -1946,27 +1946,27 @@
         "\"8\""
       ]
     },
-    "name": "universal_minecraft:composter"
+    "name": "composter"
   },
   "conduit": {
     "carry_options": {},
-    "name": "universal_minecraft:conduit"
+    "name": "conduit"
   },
   "cornflower": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"cornflower\""
     }
   },
   "cracked_stone_bricks": {
-    "name": "universal_minecraft:stone_bricks",
+    "name": "stone_bricks",
     "options": {
       "variant": "\"cracked\""
     },
     "sprite_idx": 1448
   },
   "crafting_table": {
-    "name": "universal_minecraft:crafting_table",
+    "name": "crafting_table",
     "sprite_idx": 1537
   },
   "creeper_head": {
@@ -1990,7 +1990,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"creeper\""
     },
@@ -2005,13 +2005,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"creeper\""
     }
   },
   "cut_red_sandstone": {
-    "name": "universal_minecraft:red_sandstone",
+    "name": "red_sandstone",
     "options": {
       "variant": "\"cut\""
     }
@@ -2025,13 +2025,13 @@
       ]
     },
     "material": "\"cut_red_sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"cut_red_sandstone\""
     }
   },
   "cut_sandstone": {
-    "name": "universal_minecraft:sandstone",
+    "name": "sandstone",
     "options": {
       "variant": "\"cut\""
     }
@@ -2045,7 +2045,7 @@
       ]
     },
     "material": "\"cut_sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"cut_sandstone\""
     }
@@ -2071,7 +2071,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"cyan\""
     }
@@ -2093,27 +2093,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"cyan\""
     }
   },
   "cyan_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"cyan\""
     },
     "sprite_idx": 1100
   },
   "cyan_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"cyan\""
     },
     "sprite_idx": 647
   },
   "cyan_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"cyan\""
     },
@@ -2128,7 +2128,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"cyan\""
     },
@@ -2145,14 +2145,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"cyan\""
     },
     "sprite_idx": 618
   },
   "cyan_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"cyan\""
     },
@@ -2177,14 +2177,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"cyan\""
     },
     "sprite_idx": 566
   },
   "cyan_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"cyan\""
     },
@@ -2199,13 +2199,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"cyan\""
     }
   },
   "cyan_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"cyan\""
     },
@@ -2220,13 +2220,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:anvil",
+    "name": "anvil",
     "options": {
       "damage": "\"damaged\""
     }
   },
   "dandelion": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"dandelion\""
     },
@@ -2251,7 +2251,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"dark_oak\""
     }
@@ -2282,7 +2282,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2308,7 +2308,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2336,7 +2336,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2355,7 +2355,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2370,7 +2370,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"dark_oak\"",
       "stripped": "\"false\""
@@ -2378,7 +2378,7 @@
   },
   "dark_oak_planks": {
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2392,7 +2392,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"dark_oak\""
     }
@@ -2405,7 +2405,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2433,7 +2433,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"dark_oak\""
     }
@@ -2447,7 +2447,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2474,7 +2474,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"dark_oak\""
     },
@@ -2502,7 +2502,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"dark_oak\""
     }
@@ -2517,7 +2517,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"dark_oak\""
     }
@@ -2531,7 +2531,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"dark_oak\"",
       "stripped": "\"false\""
@@ -2539,7 +2539,7 @@
     "sprite_idx": 1298
   },
   "dark_prismarine": {
-    "name": "universal_minecraft:dark_prismarine",
+    "name": "dark_prismarine",
     "sprite_idx": 1449
   },
   "dark_prismarine_slab": {
@@ -2551,7 +2551,7 @@
       ]
     },
     "material": "\"dark_prismarine\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"dark_prismarine\""
     }
@@ -2577,7 +2577,7 @@
       ]
     },
     "material": "\"dark_prismarine\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"dark_prismarine\""
     }
@@ -2607,25 +2607,25 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:daylight_detector",
+    "name": "daylight_detector",
     "sprite_idx": 82
   },
   "dead_brain_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"true\"",
       "type": "\"brain\""
     }
   },
   "dead_brain_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"true\"",
       "type": "\"brain\""
     }
   },
   "dead_brain_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "facing": "\"up\"",
@@ -2641,28 +2641,28 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "type": "\"brain\""
     }
   },
   "dead_bubble_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"true\"",
       "type": "\"bubble\""
     }
   },
   "dead_bubble_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"true\"",
       "type": "\"bubble\""
     }
   },
   "dead_bubble_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "facing": "\"up\"",
@@ -2678,35 +2678,35 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "type": "\"bubble\""
     }
   },
   "dead_bush": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"dead_bush\""
     },
     "sprite_idx": 1682
   },
   "dead_fire_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"true\"",
       "type": "\"fire\""
     }
   },
   "dead_fire_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"true\"",
       "type": "\"fire\""
     }
   },
   "dead_fire_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "facing": "\"up\"",
@@ -2722,28 +2722,28 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "type": "\"fire\""
     }
   },
   "dead_horn_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"true\"",
       "type": "\"horn\""
     }
   },
   "dead_horn_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"true\"",
       "type": "\"horn\""
     }
   },
   "dead_horn_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "facing": "\"up\"",
@@ -2759,28 +2759,28 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "type": "\"horn\""
     }
   },
   "dead_tube_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"true\"",
       "type": "\"tube\""
     }
   },
   "dead_tube_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"true\"",
       "type": "\"tube\""
     }
   },
   "dead_tube_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "facing": "\"up\"",
@@ -2796,7 +2796,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"true\"",
       "type": "\"tube\""
@@ -2817,19 +2817,19 @@
         "\"ascending_south\""
       ]
     },
-    "name": "universal_minecraft:detector_rail",
+    "name": "detector_rail",
     "sprite_idx": 1785
   },
   "diamond_block": {
-    "name": "universal_minecraft:diamond_block",
+    "name": "diamond_block",
     "sprite_idx": 1398
   },
   "diamond_ore": {
-    "name": "universal_minecraft:diamond_ore",
+    "name": "diamond_ore",
     "sprite_idx": 1390
   },
   "diorite": {
-    "name": "universal_minecraft:diorite",
+    "name": "diorite",
     "options": {
       "polished": "\"false\""
     },
@@ -2844,7 +2844,7 @@
       ]
     },
     "material": "\"diorite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"diorite\""
     }
@@ -2870,7 +2870,7 @@
       ]
     },
     "material": "\"diorite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"diorite\""
     }
@@ -2883,13 +2883,13 @@
       ]
     },
     "material": "\"diorite\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"diorite\""
     }
   },
   "dirt": {
-    "name": "universal_minecraft:dirt",
+    "name": "dirt",
     "sprite_idx": 3
   },
   "dispenser": {
@@ -2907,11 +2907,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:dispenser",
+    "name": "dispenser",
     "sprite_idx": 1409
   },
   "dragon_egg": {
-    "name": "universal_minecraft:dragon_egg",
+    "name": "dragon_egg",
     "sprite_idx": 248
   },
   "dragon_head": {
@@ -2935,7 +2935,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"dragon\""
     },
@@ -2950,13 +2950,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"dragon\""
     }
   },
   "dried_kelp_block": {
-    "name": "universal_minecraft:dried_kelp_block"
+    "name": "dried_kelp_block"
   },
   "dropper": {
     "carry_options": {
@@ -2973,27 +2973,27 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:dropper",
+    "name": "dropper",
     "sprite_idx": 1429
   },
   "emerald_block": {
-    "name": "universal_minecraft:emerald_block",
+    "name": "emerald_block",
     "sprite_idx": 1399
   },
   "emerald_ore": {
-    "name": "universal_minecraft:emerald_ore",
+    "name": "emerald_ore",
     "sprite_idx": 1391
   },
   "enchanting_table": {
-    "name": "universal_minecraft:enchanting_table",
+    "name": "enchanting_table",
     "sprite_idx": 1543
   },
   "end_gateway": {
-    "name": "universal_minecraft:end_gateway",
+    "name": "end_gateway",
     "sprite_idx": 144
   },
   "end_portal": {
-    "name": "universal_minecraft:end_portal",
+    "name": "end_portal",
     "sprite_idx": 1845
   },
   "end_portal_frame": {
@@ -3009,7 +3009,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:end_portal_frame",
+    "name": "end_portal_frame",
     "sprite_idx": 1845
   },
   "end_rod": {
@@ -3023,11 +3023,11 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:end_rod",
+    "name": "end_rod",
     "sprite_idx": 1838
   },
   "end_stone": {
-    "name": "universal_minecraft:end_stone",
+    "name": "end_stone",
     "sprite_idx": 1257
   },
   "end_stone_brick_slab": {
@@ -3039,7 +3039,7 @@
       ]
     },
     "material": "\"end_stone_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"end_stone_brick\""
     }
@@ -3065,7 +3065,7 @@
       ]
     },
     "material": "\"end_stone_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"end_stone_brick\""
     }
@@ -3078,13 +3078,13 @@
       ]
     },
     "material": "\"end_stone_brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"end_stone_brick\""
     }
   },
   "end_stone_bricks": {
-    "name": "universal_minecraft:end_stone_bricks",
+    "name": "end_stone_bricks",
     "sprite_idx": 1450
   },
   "ender_chest": {
@@ -3096,7 +3096,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:ender_chest",
+    "name": "ender_chest",
     "sprite_idx": 1547
   },
   "farmland": {
@@ -3112,11 +3112,11 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:farmland",
+    "name": "farmland",
     "sprite_idx": 1736
   },
   "fern": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"fern\""
     },
@@ -3163,25 +3163,25 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:fire",
+    "name": "fire",
     "sprite_idx": 92
   },
   "fire_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"false\"",
       "type": "\"fire\""
     }
   },
   "fire_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"false\"",
       "type": "\"fire\""
     }
   },
   "fire_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "facing": "\"up\"",
@@ -3197,17 +3197,17 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "type": "\"fire\""
     }
   },
   "fletching_table": {
-    "name": "universal_minecraft:fletching_table"
+    "name": "fletching_table"
   },
   "flower_pot": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"none\""
     },
@@ -3222,7 +3222,7 @@
         "\"3\""
       ]
     },
-    "name": "universal_minecraft:frosted_ice",
+    "name": "frosted_ice",
     "sprite_idx": 1258
   },
   "furnace": {
@@ -3238,11 +3238,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:furnace",
+    "name": "furnace",
     "sprite_idx": 1418
   },
   "glass": {
-    "name": "universal_minecraft:glass",
+    "name": "glass",
     "sprite_idx": 1515
   },
   "glass_pane": {
@@ -3264,23 +3264,23 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:glass_pane",
+    "name": "glass_pane",
     "sprite_idx": 221
   },
   "glowstone": {
-    "name": "universal_minecraft:glowstone",
+    "name": "glowstone",
     "sprite_idx": 1259
   },
   "gold_block": {
-    "name": "universal_minecraft:gold_block",
+    "name": "gold_block",
     "sprite_idx": 1400
   },
   "gold_ore": {
-    "name": "universal_minecraft:gold_ore",
+    "name": "gold_ore",
     "sprite_idx": 1392
   },
   "granite": {
-    "name": "universal_minecraft:granite",
+    "name": "granite",
     "options": {
       "polished": "\"false\""
     },
@@ -3295,7 +3295,7 @@
       ]
     },
     "material": "\"granite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"granite\""
     }
@@ -3321,7 +3321,7 @@
       ]
     },
     "material": "\"granite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"granite\""
     }
@@ -3334,13 +3334,13 @@
       ]
     },
     "material": "\"granite\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"granite\""
     }
   },
   "grass": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"grass\""
     },
@@ -3353,14 +3353,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:grass_block"
+    "name": "grass_block"
   },
   "grass_path": {
-    "name": "universal_minecraft:grass_path",
+    "name": "grass_path",
     "sprite_idx": 498
   },
   "gravel": {
-    "name": "universal_minecraft:gravel",
+    "name": "gravel",
     "sprite_idx": 1262
   },
   "gray_banner": {
@@ -3384,7 +3384,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"gray\""
     }
@@ -3406,27 +3406,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"gray\""
     }
   },
   "gray_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"gray\""
     },
     "sprite_idx": 1101
   },
   "gray_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"gray\""
     },
     "sprite_idx": 639
   },
   "gray_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"gray\""
     },
@@ -3441,7 +3441,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"gray\""
     },
@@ -3458,14 +3458,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"gray\""
     },
     "sprite_idx": 612
   },
   "gray_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"gray\""
     },
@@ -3490,14 +3490,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"gray\""
     },
     "sprite_idx": 564
   },
   "gray_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"gray\""
     },
@@ -3512,13 +3512,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"gray\""
     }
   },
   "gray_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"gray\""
     },
@@ -3545,7 +3545,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"green\""
     }
@@ -3567,27 +3567,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"green\""
     }
   },
   "green_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"green\""
     },
     "sprite_idx": 1102
   },
   "green_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"green\""
     },
     "sprite_idx": 646
   },
   "green_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"green\""
     },
@@ -3602,7 +3602,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"green\""
     },
@@ -3619,14 +3619,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"green\""
     },
     "sprite_idx": 615
   },
   "green_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"green\""
     },
@@ -3651,14 +3651,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"green\""
     },
     "sprite_idx": 570
   },
   "green_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"green\""
     },
@@ -3673,13 +3673,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"green\""
     }
   },
   "green_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"green\""
     },
@@ -3699,7 +3699,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:grindstone"
+    "name": "grindstone"
   },
   "hay_block": {
     "carry_options": {
@@ -3709,7 +3709,7 @@
         "\"z\""
       ]
     },
-    "name": "universal_minecraft:hay_block",
+    "name": "hay_block",
     "sprite_idx": 1738
   },
   "heavy_weighted_pressure_plate": {
@@ -3733,13 +3733,13 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:heavy_weighted_pressure_plate"
+    "name": "heavy_weighted_pressure_plate"
   },
   "honey_block": {
-    "name": "universal_minecraft:honey_block"
+    "name": "honey_block"
   },
   "honeycomb_block": {
-    "name": "universal_minecraft:honeycomb_block"
+    "name": "honeycomb_block"
   },
   "hopper": {
     "carry_options": {
@@ -3755,25 +3755,25 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:hopper",
+    "name": "hopper",
     "sprite_idx": 1788
   },
   "horn_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"false\"",
       "type": "\"horn\""
     }
   },
   "horn_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"false\"",
       "type": "\"horn\""
     }
   },
   "horn_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "facing": "\"up\"",
@@ -3789,19 +3789,19 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "type": "\"horn\""
     }
   },
   "ice": {
-    "name": "universal_minecraft:ice",
+    "name": "ice",
     "sprite_idx": 1263
   },
   "infested_chiseled_stone_bricks": {
     "material": "\"chiseled_stone_bricks\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"chiseled_stone_bricks\""
     },
@@ -3809,7 +3809,7 @@
   },
   "infested_cobblestone": {
     "material": "\"cobblestone\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"cobblestone\""
     },
@@ -3817,7 +3817,7 @@
   },
   "infested_cracked_stone_bricks": {
     "material": "\"cracked_stone_bricks\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"cracked_stone_bricks\""
     },
@@ -3825,14 +3825,14 @@
   },
   "infested_mossy_stone_bricks": {
     "material": "\"mossy_stone_bricks\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"mossy_stone_bricks\""
     }
   },
   "infested_stone": {
     "material": "\"stone\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"stone\""
     },
@@ -3840,7 +3840,7 @@
   },
   "infested_stone_bricks": {
     "material": "\"stone_bricks\"",
-    "name": "universal_minecraft:infested_block",
+    "name": "infested_block",
     "options": {
       "material": "\"stone_bricks\""
     }
@@ -3864,11 +3864,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:iron_bars",
+    "name": "iron_bars",
     "sprite_idx": 1359
   },
   "iron_block": {
-    "name": "universal_minecraft:iron_block",
+    "name": "iron_block",
     "sprite_idx": 1401
   },
   "iron_door": {
@@ -3897,14 +3897,14 @@
       ]
     },
     "material": "\"iron\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"iron\""
     },
     "sprite_idx": 1207
   },
   "iron_ore": {
-    "name": "universal_minecraft:iron_ore",
+    "name": "iron_ore",
     "sprite_idx": 1393
   },
   "iron_trapdoor": {
@@ -3929,7 +3929,7 @@
       ]
     },
     "material": "\"iron\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"iron\""
     },
@@ -3944,11 +3944,11 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:jack_o_lantern",
+    "name": "jack_o_lantern",
     "sprite_idx": 1740
   },
   "jigsaw": {
-    "name": "universal_minecraft:jigsaw"
+    "name": "jigsaw"
   },
   "jukebox": {
     "carry_options": {
@@ -3957,7 +3957,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:jukebox",
+    "name": "jukebox",
     "sprite_idx": 1550
   },
   "jungle_button": {
@@ -3979,7 +3979,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"jungle\""
     }
@@ -4010,7 +4010,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"jungle\""
     },
@@ -4036,7 +4036,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"jungle\""
     },
@@ -4064,7 +4064,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"jungle\""
     },
@@ -4083,7 +4083,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"jungle\""
     },
@@ -4098,7 +4098,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"jungle\"",
       "stripped": "\"false\""
@@ -4107,7 +4107,7 @@
   },
   "jungle_planks": {
     "material": "\"jungle\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"jungle\""
     },
@@ -4121,7 +4121,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"jungle\""
     }
@@ -4134,7 +4134,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"jungle\""
     },
@@ -4162,7 +4162,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"jungle\""
     }
@@ -4176,7 +4176,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"jungle\""
     },
@@ -4203,7 +4203,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"jungle\""
     },
@@ -4231,7 +4231,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"jungle\""
     }
@@ -4246,7 +4246,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"jungle\""
     }
@@ -4260,7 +4260,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"jungle\"",
       "stripped": "\"false\""
@@ -4297,10 +4297,10 @@
         "\"25\""
       ]
     },
-    "name": "universal_minecraft:kelp"
+    "name": "kelp"
   },
   "kelp_plant": {
-    "name": "universal_minecraft:kelp_plant"
+    "name": "kelp_plant"
   },
   "ladder": {
     "carry_options": {
@@ -4311,7 +4311,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:ladder",
+    "name": "ladder",
     "sprite_idx": 1360
   },
   "lantern": {
@@ -4321,14 +4321,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:lantern"
+    "name": "lantern"
   },
   "lapis_block": {
-    "name": "universal_minecraft:lapis_block",
+    "name": "lapis_block",
     "sprite_idx": 1402
   },
   "lapis_ore": {
-    "name": "universal_minecraft:lapis_ore",
+    "name": "lapis_ore",
     "sprite_idx": 1394
   },
   "large_fern": {
@@ -4338,14 +4338,14 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"large_fern\""
     },
     "sprite_idx": 1685
   },
   "lava": {
-    "name": "universal_minecraft:lava",
+    "name": "lava",
     "sprite_idx": 94
   },
   "lectern": {
@@ -4365,7 +4365,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:lectern"
+    "name": "lectern"
   },
   "lever": {
     "carry_options": {
@@ -4385,7 +4385,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:lever",
+    "name": "lever",
     "sprite_idx": 1795
   },
   "light_blue_banner": {
@@ -4409,7 +4409,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"light_blue\""
     }
@@ -4431,27 +4431,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"light_blue\""
     }
   },
   "light_blue_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"light_blue\""
     },
     "sprite_idx": 539
   },
   "light_blue_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"light_blue\""
     },
     "sprite_idx": 648
   },
   "light_blue_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"light_blue\""
     },
@@ -4466,7 +4466,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"light_blue\""
     },
@@ -4483,14 +4483,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"light_blue\""
     },
     "sprite_idx": 630
   },
   "light_blue_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"light_blue\""
     },
@@ -4515,14 +4515,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"light_blue\""
     },
     "sprite_idx": 1380
   },
   "light_blue_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"light_blue\""
     },
@@ -4537,13 +4537,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"light_blue\""
     }
   },
   "light_blue_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"light_blue\""
     },
@@ -4570,7 +4570,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"light_gray\""
     }
@@ -4592,27 +4592,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"light_gray\""
     }
   },
   "light_gray_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"light_gray\""
     },
     "sprite_idx": 1103
   },
   "light_gray_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"light_gray\""
     },
     "sprite_idx": 640
   },
   "light_gray_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"light_gray\""
     },
@@ -4627,7 +4627,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"light_gray\""
     },
@@ -4644,14 +4644,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"light_gray\""
     },
     "sprite_idx": 606
   },
   "light_gray_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"light_gray\""
     },
@@ -4676,14 +4676,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"light_gray\""
     },
     "sprite_idx": 1379
   },
   "light_gray_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"light_gray\""
     },
@@ -4698,13 +4698,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"light_gray\""
     }
   },
   "light_gray_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"light_gray\""
     },
@@ -4731,7 +4731,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:light_weighted_pressure_plate",
+    "name": "light_weighted_pressure_plate",
     "sprite_idx": 1797
   },
   "lilac": {
@@ -4741,20 +4741,20 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"lilac\""
     },
     "sprite_idx": 1695
   },
   "lily_of_the_valley": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"lily_of_the_valley\""
     }
   },
   "lily_pad": {
-    "name": "universal_minecraft:lily_pad",
+    "name": "lily_pad",
     "sprite_idx": 1686
   },
   "lime_banner": {
@@ -4778,7 +4778,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"lime\""
     }
@@ -4800,27 +4800,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"lime\""
     }
   },
   "lime_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"lime\""
     },
     "sprite_idx": 1104
   },
   "lime_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"lime\""
     },
     "sprite_idx": 645
   },
   "lime_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"lime\""
     },
@@ -4835,7 +4835,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"lime\""
     },
@@ -4852,14 +4852,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"lime\""
     },
     "sprite_idx": 594
   },
   "lime_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"lime\""
     },
@@ -4884,14 +4884,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"lime\""
     },
     "sprite_idx": 1381
   },
   "lime_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"lime\""
     },
@@ -4906,13 +4906,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"lime\""
     }
   },
   "lime_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"lime\""
     },
@@ -4927,7 +4927,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:loom"
+    "name": "loom"
   },
   "magenta_banner": {
     "carry_options": {
@@ -4950,7 +4950,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"magenta\""
     }
@@ -4972,27 +4972,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"magenta\""
     }
   },
   "magenta_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"magenta\""
     },
     "sprite_idx": 1105
   },
   "magenta_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"magenta\""
     },
     "sprite_idx": 651
   },
   "magenta_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"magenta\""
     },
@@ -5007,7 +5007,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"magenta\""
     },
@@ -5024,14 +5024,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"magenta\""
     },
     "sprite_idx": 597
   },
   "magenta_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"magenta\""
     },
@@ -5056,14 +5056,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"magenta\""
     },
     "sprite_idx": 1382
   },
   "magenta_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"magenta\""
     },
@@ -5078,24 +5078,24 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"magenta\""
     }
   },
   "magenta_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"magenta\""
     },
     "sprite_idx": 291
   },
   "magma_block": {
-    "name": "universal_minecraft:magma_block",
+    "name": "magma_block",
     "sprite_idx": 1264
   },
   "melon": {
-    "name": "universal_minecraft:melon",
+    "name": "melon",
     "sprite_idx": 1741
   },
   "melon_stem": {
@@ -5111,11 +5111,11 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:melon_stem",
+    "name": "melon_stem",
     "sprite_idx": 160
   },
   "mossy_cobblestone": {
-    "name": "universal_minecraft:mossy_cobblestone",
+    "name": "mossy_cobblestone",
     "sprite_idx": 1265
   },
   "mossy_cobblestone_slab": {
@@ -5127,7 +5127,7 @@
       ]
     },
     "material": "\"mossy_cobblestone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"mossy_cobblestone\""
     }
@@ -5153,7 +5153,7 @@
       ]
     },
     "material": "\"mossy_cobblestone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"mossy_cobblestone\""
     }
@@ -5166,7 +5166,7 @@
       ]
     },
     "material": "\"mossy_cobblestone\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"mossy_cobblestone\""
     },
@@ -5181,7 +5181,7 @@
       ]
     },
     "material": "\"mossy_stone_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"mossy_stone_brick\""
     }
@@ -5207,7 +5207,7 @@
       ]
     },
     "material": "\"mossy_stone_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"mossy_stone_brick\""
     }
@@ -5220,13 +5220,13 @@
       ]
     },
     "material": "\"mossy_stone_brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"mossy_stone_brick\""
     }
   },
   "mossy_stone_bricks": {
-    "name": "universal_minecraft:stone_bricks",
+    "name": "stone_bricks",
     "options": {
       "variant": "\"mossy\""
     },
@@ -5247,7 +5247,7 @@
         "\"sticky\""
       ]
     },
-    "name": "universal_minecraft:moving_block"
+    "name": "moving_block"
   },
   "mushroom_stem": {
     "carry_options": {
@@ -5276,7 +5276,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:mushroom_stem"
+    "name": "mushroom_stem"
   },
   "mycelium": {
     "carry_options": {
@@ -5285,7 +5285,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:mycelium",
+    "name": "mycelium",
     "sprite_idx": 1266
   },
   "nether_brick_fence": {
@@ -5308,7 +5308,7 @@
       ]
     },
     "material": "\"nether_brick\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"nether_brick\""
     },
@@ -5323,7 +5323,7 @@
       ]
     },
     "material": "\"nether_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"nether_brick\""
     },
@@ -5350,7 +5350,7 @@
       ]
     },
     "material": "\"nether_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"nether_brick\""
     },
@@ -5364,13 +5364,13 @@
       ]
     },
     "material": "\"nether_brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"nether_brick\""
     }
   },
   "nether_bricks": {
-    "name": "universal_minecraft:nether_bricks",
+    "name": "nether_bricks",
     "sprite_idx": 1455
   },
   "nether_portal": {
@@ -5380,11 +5380,11 @@
         "\"z\""
       ]
     },
-    "name": "universal_minecraft:nether_portal",
+    "name": "nether_portal",
     "sprite_idx": 45
   },
   "nether_quartz_ore": {
-    "name": "universal_minecraft:nether_quartz_ore",
+    "name": "nether_quartz_ore",
     "sprite_idx": 1395
   },
   "nether_wart": {
@@ -5396,15 +5396,15 @@
         "\"3\""
       ]
     },
-    "name": "universal_minecraft:nether_wart",
+    "name": "nether_wart",
     "sprite_idx": 1745
   },
   "nether_wart_block": {
-    "name": "universal_minecraft:nether_wart_block",
+    "name": "nether_wart_block",
     "sprite_idx": 1361
   },
   "netherrack": {
-    "name": "universal_minecraft:netherrack",
+    "name": "netherrack",
     "sprite_idx": 1268
   },
   "note_block": {
@@ -5459,7 +5459,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:note_block"
+    "name": "note_block"
   },
   "oak_button": {
     "carry_options": {
@@ -5480,7 +5480,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"oak\""
     }
@@ -5511,7 +5511,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"oak\""
     },
@@ -5537,7 +5537,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"oak\""
     },
@@ -5565,7 +5565,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"oak\""
     },
@@ -5584,7 +5584,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"oak\""
     },
@@ -5599,7 +5599,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"oak\"",
       "stripped": "\"false\""
@@ -5608,7 +5608,7 @@
   },
   "oak_planks": {
     "material": "\"oak\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"oak\""
     },
@@ -5622,7 +5622,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"oak\""
     }
@@ -5635,7 +5635,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"oak\""
     },
@@ -5663,7 +5663,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"oak\""
     }
@@ -5677,7 +5677,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"oak\""
     },
@@ -5704,7 +5704,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"oak\""
     },
@@ -5732,7 +5732,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"oak\""
     }
@@ -5747,7 +5747,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"oak\""
     }
@@ -5761,7 +5761,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"oak\"",
       "stripped": "\"false\""
@@ -5782,11 +5782,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:observer",
+    "name": "observer",
     "sprite_idx": 1556
   },
   "obsidian": {
-    "name": "universal_minecraft:obsidian",
+    "name": "obsidian",
     "sprite_idx": 1269
   },
   "orange_banner": {
@@ -5810,7 +5810,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"orange\""
     }
@@ -5832,27 +5832,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"orange\""
     }
   },
   "orange_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 1106
   },
   "orange_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 643
   },
   "orange_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"orange\""
     },
@@ -5867,7 +5867,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"orange\""
     },
@@ -5884,14 +5884,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 588
   },
   "orange_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"orange\""
     },
@@ -5916,21 +5916,21 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 1383
   },
   "orange_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 355
   },
   "orange_tulip": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"orange_tulip\""
     },
@@ -5945,27 +5945,27 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"orange\""
     }
   },
   "orange_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"orange\""
     },
     "sprite_idx": 315
   },
   "oxeye_daisy": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"oxeye_daisy\""
     },
     "sprite_idx": 1697
   },
   "packed_ice": {
-    "name": "universal_minecraft:packed_ice",
+    "name": "packed_ice",
     "sprite_idx": 1270
   },
   "peony": {
@@ -5975,7 +5975,7 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"peony\""
     },
@@ -5990,7 +5990,7 @@
       ]
     },
     "material": "\"petrified_oak\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"petrified_oak\""
     }
@@ -6016,7 +6016,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"pink\""
     }
@@ -6038,27 +6038,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"pink\""
     }
   },
   "pink_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"pink\""
     },
     "sprite_idx": 1107
   },
   "pink_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"pink\""
     },
     "sprite_idx": 652
   },
   "pink_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"pink\""
     },
@@ -6073,7 +6073,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"pink\""
     },
@@ -6090,14 +6090,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"pink\""
     },
     "sprite_idx": 600
   },
   "pink_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"pink\""
     },
@@ -6122,21 +6122,21 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"pink\""
     },
     "sprite_idx": 1384
   },
   "pink_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"pink\""
     },
     "sprite_idx": 360
   },
   "pink_tulip": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"pink_tulip\""
     },
@@ -6151,13 +6151,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"pink\""
     }
   },
   "pink_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"pink\""
     },
@@ -6178,7 +6178,7 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:piston",
+    "name": "piston",
     "sprite_idx": 1803
   },
   "piston_head": {
@@ -6218,7 +6218,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"player\""
     },
@@ -6233,7 +6233,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"player\""
     }
@@ -6245,11 +6245,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:podzol",
+    "name": "podzol",
     "sprite_idx": 3
   },
   "polished_andesite": {
-    "name": "universal_minecraft:andesite",
+    "name": "andesite",
     "options": {
       "polished": "\"true\""
     },
@@ -6264,7 +6264,7 @@
       ]
     },
     "material": "\"polished_andesite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"polished_andesite\""
     }
@@ -6290,13 +6290,13 @@
       ]
     },
     "material": "\"polished_andesite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"polished_andesite\""
     }
   },
   "polished_diorite": {
-    "name": "universal_minecraft:diorite",
+    "name": "diorite",
     "options": {
       "polished": "\"true\""
     },
@@ -6311,7 +6311,7 @@
       ]
     },
     "material": "\"polished_diorite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"polished_diorite\""
     }
@@ -6337,13 +6337,13 @@
       ]
     },
     "material": "\"polished_diorite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"polished_diorite\""
     }
   },
   "polished_granite": {
-    "name": "universal_minecraft:granite",
+    "name": "granite",
     "options": {
       "polished": "\"true\""
     },
@@ -6358,7 +6358,7 @@
       ]
     },
     "material": "\"polished_granite\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"polished_granite\""
     }
@@ -6384,13 +6384,13 @@
       ]
     },
     "material": "\"polished_granite\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"polished_granite\""
     }
   },
   "poppy": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"poppy\""
     },
@@ -6409,155 +6409,155 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:potatoes",
+    "name": "potatoes",
     "sprite_idx": 1748
   },
   "potted_acacia_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"acacia_sapling\""
     }
   },
   "potted_allium": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"allium\""
     }
   },
   "potted_azure_bluet": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"azure_bluet\""
     }
   },
   "potted_bamboo": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"bamboo\""
     }
   },
   "potted_birch_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"birch_sapling\""
     }
   },
   "potted_blue_orchid": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"blue_orchid\""
     }
   },
   "potted_brown_mushroom": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"brown_mushroom\""
     }
   },
   "potted_cactus": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"cactus\""
     }
   },
   "potted_cornflower": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"cornflower\""
     }
   },
   "potted_dandelion": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"dandelion\""
     }
   },
   "potted_dark_oak_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"dark_oak_sapling\""
     }
   },
   "potted_dead_bush": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"dead_bush\""
     }
   },
   "potted_fern": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"fern\""
     }
   },
   "potted_jungle_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"jungle_sapling\""
     }
   },
   "potted_lily_of_the_valley": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"lily_of_the_valley\""
     }
   },
   "potted_oak_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"oak_sapling\""
     }
   },
   "potted_orange_tulip": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"orange_tulip\""
     }
   },
   "potted_oxeye_daisy": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"oxeye_daisy\""
     }
   },
   "potted_pink_tulip": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"pink_tulip\""
     }
   },
   "potted_poppy": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"poppy\""
     }
   },
   "potted_red_mushroom": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"red_mushroom\""
     }
   },
   "potted_red_tulip": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"red_tulip\""
     }
   },
   "potted_spruce_sapling": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"spruce_sapling\""
     }
   },
   "potted_white_tulip": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"white_tulip\""
     }
   },
   "potted_wither_rose": {
-    "name": "universal_minecraft:flower_pot",
+    "name": "flower_pot",
     "options": {
       "plant": "\"wither_rose\""
     }
@@ -6577,11 +6577,11 @@
         "\"ascending_south\""
       ]
     },
-    "name": "universal_minecraft:powered_rail",
+    "name": "powered_rail",
     "sprite_idx": 1812
   },
   "prismarine": {
-    "name": "universal_minecraft:prismarine",
+    "name": "prismarine",
     "sprite_idx": 1273
   },
   "prismarine_brick_slab": {
@@ -6593,7 +6593,7 @@
       ]
     },
     "material": "\"prismarine_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"prismarine_brick\""
     }
@@ -6619,13 +6619,13 @@
       ]
     },
     "material": "\"prismarine_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"prismarine_brick\""
     }
   },
   "prismarine_bricks": {
-    "name": "universal_minecraft:prismarine_bricks",
+    "name": "prismarine_bricks",
     "sprite_idx": 1273
   },
   "prismarine_slab": {
@@ -6637,7 +6637,7 @@
       ]
     },
     "material": "\"prismarine\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"prismarine\""
     }
@@ -6663,7 +6663,7 @@
       ]
     },
     "material": "\"prismarine\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"prismarine\""
     }
@@ -6676,13 +6676,13 @@
       ]
     },
     "material": "\"prismarine\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"prismarine\""
     }
   },
   "pumpkin": {
-    "name": "universal_minecraft:pumpkin",
+    "name": "pumpkin",
     "sprite_idx": 1752
   },
   "pumpkin_stem": {
@@ -6698,7 +6698,7 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:pumpkin_stem",
+    "name": "pumpkin_stem",
     "sprite_idx": 1752
   },
   "purple_banner": {
@@ -6722,7 +6722,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"purple\""
     }
@@ -6744,27 +6744,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"purple\""
     }
   },
   "purple_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"purple\""
     },
     "sprite_idx": 1154
   },
   "purple_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"purple\""
     },
     "sprite_idx": 650
   },
   "purple_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"purple\""
     },
@@ -6779,7 +6779,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"purple\""
     },
@@ -6796,14 +6796,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"purple\""
     },
     "sprite_idx": 1111
   },
   "purple_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"purple\""
     },
@@ -6828,14 +6828,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"purple\""
     },
     "sprite_idx": 1385
   },
   "purple_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"purple\""
     },
@@ -6850,20 +6850,20 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"purple\""
     }
   },
   "purple_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"purple\""
     },
     "sprite_idx": 290
   },
   "purpur_block": {
-    "name": "universal_minecraft:purpur_block",
+    "name": "purpur_block",
     "sprite_idx": 1430
   },
   "purpur_pillar": {
@@ -6874,7 +6874,7 @@
         "\"z\""
       ]
     },
-    "name": "universal_minecraft:purpur_pillar",
+    "name": "purpur_pillar",
     "sprite_idx": 1431
   },
   "purpur_slab": {
@@ -6886,7 +6886,7 @@
       ]
     },
     "material": "\"purpur\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"purpur\""
     },
@@ -6913,14 +6913,14 @@
       ]
     },
     "material": "\"purpur\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"purpur\""
     },
     "sprite_idx": 1503
   },
   "quartz_block": {
-    "name": "universal_minecraft:quartz_block",
+    "name": "quartz_block",
     "sprite_idx": 1516
   },
   "quartz_pillar": {
@@ -6931,7 +6931,7 @@
         "\"z\""
       ]
     },
-    "name": "universal_minecraft:quartz_pillar"
+    "name": "quartz_pillar"
   },
   "quartz_slab": {
     "carry_options": {
@@ -6942,7 +6942,7 @@
       ]
     },
     "material": "\"quartz\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"quartz\""
     },
@@ -6969,7 +6969,7 @@
       ]
     },
     "material": "\"quartz\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"quartz\""
     },
@@ -6990,7 +6990,7 @@
         "\"north_east\""
       ]
     },
-    "name": "universal_minecraft:rail",
+    "name": "rail",
     "sprite_idx": 1815
   },
   "red_banner": {
@@ -7014,7 +7014,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"red\""
     }
@@ -7036,27 +7036,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"red\""
     }
   },
   "red_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 1108
   },
   "red_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 642
   },
   "red_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"red\""
     },
@@ -7071,14 +7071,14 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 674
   },
   "red_mushroom": {
-    "name": "universal_minecraft:red_mushroom",
+    "name": "red_mushroom",
     "sprite_idx": 1754
   },
   "red_mushroom_block": {
@@ -7108,7 +7108,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:red_mushroom_block",
+    "name": "red_mushroom_block",
     "sprite_idx": 1755
   },
   "red_nether_brick_slab": {
@@ -7120,7 +7120,7 @@
       ]
     },
     "material": "\"red_nether_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"red_nether_brick\""
     }
@@ -7146,7 +7146,7 @@
       ]
     },
     "material": "\"red_nether_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"red_nether_brick\""
     }
@@ -7159,21 +7159,21 @@
       ]
     },
     "material": "\"red_nether_brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"red_nether_brick\""
     }
   },
   "red_nether_bricks": {
-    "name": "universal_minecraft:red_nether_bricks",
+    "name": "red_nether_bricks",
     "sprite_idx": 1455
   },
   "red_sand": {
-    "name": "universal_minecraft:red_sand",
+    "name": "red_sand",
     "sprite_idx": 1274
   },
   "red_sandstone": {
-    "name": "universal_minecraft:red_sandstone",
+    "name": "red_sandstone",
     "options": {
       "variant": "\"normal\""
     },
@@ -7188,7 +7188,7 @@
       ]
     },
     "material": "\"red_sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"red_sandstone\""
     },
@@ -7215,7 +7215,7 @@
       ]
     },
     "material": "\"red_sandstone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"red_sandstone\""
     },
@@ -7229,7 +7229,7 @@
       ]
     },
     "material": "\"red_sandstone\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"red_sandstone\""
     }
@@ -7245,14 +7245,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 603
   },
   "red_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"red\""
     },
@@ -7277,21 +7277,21 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 1386
   },
   "red_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 336
   },
   "red_tulip": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"red_tulip\""
     },
@@ -7306,20 +7306,20 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"red\""
     }
   },
   "red_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"red\""
     },
     "sprite_idx": 194
   },
   "redstone_block": {
-    "name": "universal_minecraft:redstone_block",
+    "name": "redstone_block",
     "sprite_idx": 1403
   },
   "redstone_lamp": {
@@ -7329,7 +7329,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:redstone_lamp",
+    "name": "redstone_lamp",
     "sprite_idx": 1823
   },
   "redstone_ore": {
@@ -7339,7 +7339,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:redstone_ore",
+    "name": "redstone_ore",
     "sprite_idx": 1396
   },
   "redstone_torch": {
@@ -7349,7 +7349,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:redstone_torch",
+    "name": "redstone_torch",
     "options": {
       "facing": "\"up\""
     },
@@ -7368,7 +7368,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:redstone_torch"
+    "name": "redstone_torch"
   },
   "redstone_wire": {
     "carry_options": {
@@ -7411,7 +7411,7 @@
         "\"none\""
       ]
     },
-    "name": "universal_minecraft:redstone_wire"
+    "name": "redstone_wire"
   },
   "repeater": {
     "carry_options": {
@@ -7436,7 +7436,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:repeater",
+    "name": "repeater",
     "sprite_idx": 1824
   },
   "repeating_command_block": {
@@ -7454,7 +7454,7 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:command_block",
+    "name": "command_block",
     "options": {
       "mode": "\"repeating\""
     },
@@ -7467,18 +7467,18 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"rose_bush\""
     },
     "sprite_idx": 1702
   },
   "sand": {
-    "name": "universal_minecraft:sand",
+    "name": "sand",
     "sprite_idx": 1278
   },
   "sandstone": {
-    "name": "universal_minecraft:sandstone",
+    "name": "sandstone",
     "options": {
       "variant": "\"normal\""
     },
@@ -7493,7 +7493,7 @@
       ]
     },
     "material": "\"sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"sandstone\""
     },
@@ -7520,7 +7520,7 @@
       ]
     },
     "material": "\"sandstone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"sandstone\""
     },
@@ -7534,7 +7534,7 @@
       ]
     },
     "material": "\"sandstone\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"sandstone\""
     }
@@ -7556,10 +7556,10 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:scaffolding"
+    "name": "scaffolding"
   },
   "sea_lantern": {
-    "name": "universal_minecraft:sea_lantern",
+    "name": "sea_lantern",
     "sprite_idx": 481
   },
   "sea_pickle": {
@@ -7571,10 +7571,10 @@
         "\"4\""
       ]
     },
-    "name": "universal_minecraft:sea_pickle"
+    "name": "sea_pickle"
   },
   "seagrass": {
-    "name": "universal_minecraft:seagrass"
+    "name": "seagrass"
   },
   "shulker_box": {
     "carry_options": {
@@ -7587,7 +7587,7 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"default\""
     }
@@ -7613,7 +7613,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"skeleton\""
     },
@@ -7628,17 +7628,17 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"skeleton\""
     }
   },
   "slime_block": {
-    "name": "universal_minecraft:slime_block",
+    "name": "slime_block",
     "sprite_idx": 1434
   },
   "smithing_table": {
-    "name": "universal_minecraft:smithing_table"
+    "name": "smithing_table"
   },
   "smoker": {
     "carry_options": {
@@ -7653,10 +7653,10 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:smoker"
+    "name": "smoker"
   },
   "smooth_quartz": {
-    "name": "universal_minecraft:smooth_quartz"
+    "name": "smooth_quartz"
   },
   "smooth_quartz_slab": {
     "carry_options": {
@@ -7667,7 +7667,7 @@
       ]
     },
     "material": "\"smooth_quartz\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"smooth_quartz\""
     }
@@ -7693,13 +7693,13 @@
       ]
     },
     "material": "\"smooth_quartz\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"smooth_quartz\""
     }
   },
   "smooth_red_sandstone": {
-    "name": "universal_minecraft:red_sandstone",
+    "name": "red_sandstone",
     "options": {
       "variant": "\"smooth\""
     },
@@ -7714,7 +7714,7 @@
       ]
     },
     "material": "\"smooth_red_sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"smooth_red_sandstone\""
     }
@@ -7740,13 +7740,13 @@
       ]
     },
     "material": "\"smooth_red_sandstone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"smooth_red_sandstone\""
     }
   },
   "smooth_sandstone": {
-    "name": "universal_minecraft:sandstone",
+    "name": "sandstone",
     "options": {
       "variant": "\"smooth\""
     },
@@ -7761,7 +7761,7 @@
       ]
     },
     "material": "\"smooth_sandstone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"smooth_sandstone\""
     }
@@ -7787,13 +7787,13 @@
       ]
     },
     "material": "\"smooth_sandstone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"smooth_sandstone\""
     }
   },
   "smooth_stone": {
-    "name": "universal_minecraft:smooth_stone"
+    "name": "smooth_stone"
   },
   "smooth_stone_slab": {
     "carry_options": {
@@ -7804,7 +7804,7 @@
       ]
     },
     "material": "\"smooth_stone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"smooth_stone\""
     }
@@ -7822,23 +7822,23 @@
         "\"8\""
       ]
     },
-    "name": "universal_minecraft:snow",
+    "name": "snow",
     "sprite_idx": 1284
   },
   "snow_block": {
-    "name": "universal_minecraft:snow_block",
+    "name": "snow_block",
     "sprite_idx": 1284
   },
   "soul_sand": {
-    "name": "universal_minecraft:soul_sand",
+    "name": "soul_sand",
     "sprite_idx": 1286
   },
   "spawner": {
-    "name": "universal_minecraft:spawner",
+    "name": "spawner",
     "sprite_idx": 1840
   },
   "sponge": {
-    "name": "universal_minecraft:sponge",
+    "name": "sponge",
     "options": {
       "wet": "\"false\""
     },
@@ -7863,7 +7863,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"spruce\""
     }
@@ -7894,7 +7894,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:door",
+    "name": "door",
     "options": {
       "material": "\"spruce\""
     },
@@ -7920,7 +7920,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:fence",
+    "name": "fence",
     "options": {
       "material": "\"spruce\""
     },
@@ -7948,7 +7948,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:fence_gate",
+    "name": "fence_gate",
     "options": {
       "material": "\"spruce\""
     },
@@ -7967,7 +7967,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:leaves",
+    "name": "leaves",
     "options": {
       "material": "\"spruce\""
     },
@@ -7982,7 +7982,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"spruce\"",
       "stripped": "\"false\""
@@ -7991,7 +7991,7 @@
   },
   "spruce_planks": {
     "material": "\"spruce\"",
-    "name": "universal_minecraft:planks",
+    "name": "planks",
     "options": {
       "material": "\"spruce\""
     },
@@ -8005,7 +8005,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"spruce\""
     }
@@ -8018,7 +8018,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:sapling",
+    "name": "sapling",
     "options": {
       "material": "\"spruce\""
     },
@@ -8046,7 +8046,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:sign",
+    "name": "sign",
     "options": {
       "material": "\"spruce\""
     }
@@ -8060,7 +8060,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"spruce\""
     },
@@ -8087,7 +8087,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"spruce\""
     },
@@ -8115,7 +8115,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:trapdoor",
+    "name": "trapdoor",
     "options": {
       "material": "\"spruce\""
     }
@@ -8130,7 +8130,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:wall_sign",
+    "name": "wall_sign",
     "options": {
       "material": "\"spruce\""
     }
@@ -8144,7 +8144,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"spruce\"",
       "stripped": "\"false\""
@@ -8165,11 +8165,11 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:sticky_piston",
+    "name": "sticky_piston",
     "sprite_idx": 1806
   },
   "stone": {
-    "name": "universal_minecraft:stone",
+    "name": "stone",
     "sprite_idx": 1243
   },
   "stone_brick_slab": {
@@ -8181,7 +8181,7 @@
       ]
     },
     "material": "\"stone_brick\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"stone_brick\""
     },
@@ -8208,7 +8208,7 @@
       ]
     },
     "material": "\"stone_brick\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"stone_brick\""
     },
@@ -8222,13 +8222,13 @@
       ]
     },
     "material": "\"stone_brick\"",
-    "name": "universal_minecraft:wall",
+    "name": "wall",
     "options": {
       "material": "\"stone_brick\""
     }
   },
   "stone_bricks": {
-    "name": "universal_minecraft:stone_bricks",
+    "name": "stone_bricks",
     "options": {
       "variant": "\"normal\""
     },
@@ -8253,7 +8253,7 @@
       ]
     },
     "material": "\"stone\"",
-    "name": "universal_minecraft:button",
+    "name": "button",
     "options": {
       "material": "\"stone\""
     },
@@ -8267,7 +8267,7 @@
       ]
     },
     "material": "\"stone\"",
-    "name": "universal_minecraft:pressure_plate",
+    "name": "pressure_plate",
     "options": {
       "material": "\"stone\""
     },
@@ -8282,7 +8282,7 @@
       ]
     },
     "material": "\"stone\"",
-    "name": "universal_minecraft:slab",
+    "name": "slab",
     "options": {
       "material": "\"stone\""
     },
@@ -8309,7 +8309,7 @@
       ]
     },
     "material": "\"stone\"",
-    "name": "universal_minecraft:stairs",
+    "name": "stairs",
     "options": {
       "material": "\"stone\""
     }
@@ -8323,7 +8323,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:stonecutter"
+    "name": "stonecutter"
   },
   "stripped_acacia_log": {
     "carry_options": {
@@ -8334,7 +8334,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"acacia\"",
       "stripped": "\"true\""
@@ -8349,7 +8349,7 @@
       ]
     },
     "material": "\"acacia\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"acacia\"",
       "stripped": "\"true\""
@@ -8364,7 +8364,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"birch\"",
       "stripped": "\"true\""
@@ -8379,7 +8379,7 @@
       ]
     },
     "material": "\"birch\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"birch\"",
       "stripped": "\"true\""
@@ -8394,7 +8394,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"dark_oak\"",
       "stripped": "\"true\""
@@ -8409,7 +8409,7 @@
       ]
     },
     "material": "\"dark_oak\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"dark_oak\"",
       "stripped": "\"true\""
@@ -8424,7 +8424,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"jungle\"",
       "stripped": "\"true\""
@@ -8439,7 +8439,7 @@
       ]
     },
     "material": "\"jungle\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"jungle\"",
       "stripped": "\"true\""
@@ -8454,7 +8454,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"oak\"",
       "stripped": "\"true\""
@@ -8469,7 +8469,7 @@
       ]
     },
     "material": "\"oak\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"oak\"",
       "stripped": "\"true\""
@@ -8484,7 +8484,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:log",
+    "name": "log",
     "options": {
       "material": "\"spruce\"",
       "stripped": "\"true\""
@@ -8499,7 +8499,7 @@
       ]
     },
     "material": "\"spruce\"",
-    "name": "universal_minecraft:wood",
+    "name": "wood",
     "options": {
       "material": "\"spruce\"",
       "stripped": "\"true\""
@@ -8514,11 +8514,11 @@
         "\"data\""
       ]
     },
-    "name": "universal_minecraft:structure_block",
+    "name": "structure_block",
     "sprite_idx": 1213
   },
   "structure_void": {
-    "name": "universal_minecraft:structure_void",
+    "name": "structure_void",
     "sprite_idx": 1852
   },
   "sugar_cane": {
@@ -8542,7 +8542,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:sugar_cane",
+    "name": "sugar_cane",
     "sprite_idx": 1756
   },
   "sunflower": {
@@ -8552,14 +8552,14 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"sunflower\""
     },
     "sprite_idx": 1703
   },
   "sweet_berry_bush": {
-    "name": "universal_minecraft:sweet_berry_bush"
+    "name": "sweet_berry_bush"
   },
   "tall_grass": {
     "carry_options": {
@@ -8568,7 +8568,7 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:double_plant",
+    "name": "double_plant",
     "options": {
       "type": "\"tall_grass\""
     }
@@ -8580,10 +8580,10 @@
         "\"lower\""
       ]
     },
-    "name": "universal_minecraft:tall_seagrass"
+    "name": "tall_seagrass"
   },
   "terracotta": {
-    "name": "universal_minecraft:terracotta",
+    "name": "terracotta",
     "sprite_idx": 1330
   },
   "tnt": {
@@ -8593,11 +8593,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:tnt",
+    "name": "tnt",
     "sprite_idx": 1564
   },
   "torch": {
-    "name": "universal_minecraft:torch",
+    "name": "torch",
     "options": {
       "facing": "\"up\""
     },
@@ -8617,7 +8617,7 @@
         "\"right\""
       ]
     },
-    "name": "universal_minecraft:trapped_chest",
+    "name": "trapped_chest",
     "sprite_idx": 281
   },
   "tripwire": {
@@ -8651,7 +8651,7 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:tripwire",
+    "name": "tripwire",
     "sprite_idx": 211
   },
   "tripwire_hook": {
@@ -8671,25 +8671,25 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:tripwire_hook",
+    "name": "tripwire_hook",
     "sprite_idx": 1835
   },
   "tube_coral": {
-    "name": "universal_minecraft:coral",
+    "name": "coral",
     "options": {
       "dead": "\"false\"",
       "type": "\"tube\""
     }
   },
   "tube_coral_block": {
-    "name": "universal_minecraft:coral_block",
+    "name": "coral_block",
     "options": {
       "dead": "\"false\"",
       "type": "\"tube\""
     }
   },
   "tube_coral_fan": {
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "facing": "\"up\"",
@@ -8705,7 +8705,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:coral_fan",
+    "name": "coral_fan",
     "options": {
       "dead": "\"false\"",
       "type": "\"tube\""
@@ -8725,7 +8725,7 @@
         "\"2\""
       ]
     },
-    "name": "universal_minecraft:turtle_egg"
+    "name": "turtle_egg"
   },
   "vine": {
     "carry_options": {
@@ -8750,11 +8750,11 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:vine",
+    "name": "vine",
     "sprite_idx": 1689
   },
   "void_air": {
-    "name": "universal_minecraft:void_air"
+    "name": "void_air"
   },
   "wall_torch": {
     "carry_options": {
@@ -8765,14 +8765,14 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:torch"
+    "name": "torch"
   },
   "water": {
-    "name": "universal_minecraft:water",
+    "name": "water",
     "sprite_idx": 95
   },
   "wet_sponge": {
-    "name": "universal_minecraft:sponge",
+    "name": "sponge",
     "options": {
       "wet": "\"true\""
     },
@@ -8791,7 +8791,7 @@
         "\"7\""
       ]
     },
-    "name": "universal_minecraft:wheat",
+    "name": "wheat",
     "sprite_idx": 1757
   },
   "white_banner": {
@@ -8815,7 +8815,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"white\""
     }
@@ -8837,27 +8837,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"white\""
     }
   },
   "white_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 1109
   },
   "white_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 641
   },
   "white_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"white\""
     },
@@ -8872,7 +8872,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"white\""
     },
@@ -8889,14 +8889,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 585
   },
   "white_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"white\""
     },
@@ -8921,21 +8921,21 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 1387
   },
   "white_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 354
   },
   "white_tulip": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"white_tulip\""
     },
@@ -8950,20 +8950,20 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"white\""
     }
   },
   "white_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"white\""
     },
     "sprite_idx": 97
   },
   "wither_rose": {
-    "name": "universal_minecraft:plant",
+    "name": "plant",
     "options": {
       "type": "\"wither_rose\""
     }
@@ -8989,7 +8989,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"wither_skeleton\""
     },
@@ -9004,7 +9004,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"wither_skeleton\""
     }
@@ -9030,7 +9030,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:banner",
+    "name": "banner",
     "options": {
       "color": "\"yellow\""
     }
@@ -9052,27 +9052,27 @@
         "\"foot\""
       ]
     },
-    "name": "universal_minecraft:bed",
+    "name": "bed",
     "options": {
       "color": "\"yellow\""
     }
   },
   "yellow_carpet": {
-    "name": "universal_minecraft:carpet",
+    "name": "carpet",
     "options": {
       "color": "\"yellow\""
     },
     "sprite_idx": 1110
   },
   "yellow_concrete": {
-    "name": "universal_minecraft:concrete",
+    "name": "concrete",
     "options": {
       "color": "\"yellow\""
     },
     "sprite_idx": 644
   },
   "yellow_concrete_powder": {
-    "name": "universal_minecraft:concrete_powder",
+    "name": "concrete_powder",
     "options": {
       "color": "\"yellow\""
     },
@@ -9087,7 +9087,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:glazed_terracotta",
+    "name": "glazed_terracotta",
     "options": {
       "color": "\"yellow\""
     },
@@ -9104,14 +9104,14 @@
         "\"down\""
       ]
     },
-    "name": "universal_minecraft:shulker_box",
+    "name": "shulker_box",
     "options": {
       "color": "\"yellow\""
     },
     "sprite_idx": 627
   },
   "yellow_stained_glass": {
-    "name": "universal_minecraft:stained_glass",
+    "name": "stained_glass",
     "options": {
       "color": "\"yellow\""
     },
@@ -9136,14 +9136,14 @@
         "\"false\""
       ]
     },
-    "name": "universal_minecraft:stained_glass_pane",
+    "name": "stained_glass_pane",
     "options": {
       "color": "\"yellow\""
     },
     "sprite_idx": 1388
   },
   "yellow_terracotta": {
-    "name": "universal_minecraft:stained_terracotta",
+    "name": "stained_terracotta",
     "options": {
       "color": "\"yellow\""
     },
@@ -9158,13 +9158,13 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_banner",
+    "name": "wall_banner",
     "options": {
       "color": "\"yellow\""
     }
   },
   "yellow_wool": {
-    "name": "universal_minecraft:wool",
+    "name": "wool",
     "options": {
       "color": "\"yellow\""
     },
@@ -9191,7 +9191,7 @@
         "\"15\""
       ]
     },
-    "name": "universal_minecraft:head",
+    "name": "head",
     "options": {
       "mob": "\"zombie\""
     },
@@ -9206,7 +9206,7 @@
         "\"east\""
       ]
     },
-    "name": "universal_minecraft:wall_head",
+    "name": "wall_head",
     "options": {
       "mob": "\"zombie\""
     }
