@@ -3,3 +3,4 @@ amulet>=1.21.0
 git+git://github.com/Amulet-Team/Amulet-NBT.git
 git+git://github.com/Amulet-Team/Amulet-Core.git
 git+https://github.com/gentlegiantJGC/PyMCTranslate.git
+opencv-python>=4.2.0.34
