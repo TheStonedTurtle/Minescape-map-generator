@@ -5,13 +5,14 @@ from data import ObjectData, ModelData, FaceData, ModelSection
 
 class Matrix:
     def __init__(self, rows: int, cols: int):
-        self.rows = rows
-        self.cols = cols
+        self.rows = max(rows, 512)
+        self.cols = max(cols, 512)
         # noinspection PyTypeChecker
-        self.array: List[List[FaceData]] = [[None for x in range(rows)] for y in range(cols)]
+        self.array: List[List[FaceData]] = [[None for y in range(self.cols)] for x in range(self.rows)]
 
     def __getitem__(self, key: Tuple[int, int]) -> FaceData:
         if key[0] >= self.rows or key[1] >= self.cols:
+            print(key[0], key[1], self.rows, self.cols)
             raise IndexError()
         return self.array[key[0]][key[1]]
 
@@ -98,8 +99,8 @@ class ModelUtil:
     @staticmethod
     def getFacesBetweenPoints(min_points: Tuple[int, int], max_points: Tuple[int, int], face_matrix: Matrix) -> List[FaceData]:
         faces = []
-        for x in range(min_points[0], max_points[0] + 1):
-            for y in range(min_points[1], max_points[1] + 1):
+        for x in range(min_points[0], max_points[0]):
+            for y in range(min_points[1], max_points[1]):
                 if face_matrix[x, y] is not None:
                     faces.append(face_matrix[x, y])
         return faces
@@ -113,13 +114,13 @@ class ModelUtil:
         sections = []
 
         # Store all the faces in a matrix so we don't have to loop each time
-        faces = Matrix(object_data.modelSizeX + 1, object_data.modelSizeY + 1)
+        faces = Matrix(object_data.modelSizeX, object_data.modelSizeY)
         for i in range(model_data.faceCount):
             # abs as inward facing faces aren't useful
             idx = abs(model_data.faceVertexIndices1[i])
             idy = abs(model_data.faceVertexIndices2[i])
-            x = model_data.vertexPositionsX[idx]
-            y = model_data.vertexPositionsY[idy]
+            x = abs(model_data.vertexPositionsX[idx])
+            y = abs(model_data.vertexPositionsY[idy])
             face_data = faces[x, y]
             priority = model_data.faceRenderPriorities[i]
             if face_data is not None and face_data.priority <= priority:
@@ -144,11 +145,15 @@ class ModelUtil:
         if face_count <= 0:
             return r, g, b
 
+        face_colors = len(model.faceColors)
         for idx in range(face_count):
-            hsl_color = model.faceColors[section.faces[idx].idx]
+            face = section.faces[idx]
+            if face.idx >= face_colors:
+                print(len(model.faceColors), face.idx)
+                continue
+            hsl_color = model.faceColors[face.idx]
             rgb_tuple = ModelUtil.hslIntToColor(hsl_color)
             r += rgb_tuple[0]
             g += rgb_tuple[1]
             b += rgb_tuple[2]
-
         return max(int(r / face_count), 0), max(int(g / face_count), 0), max(int(b / face_count), 0)
