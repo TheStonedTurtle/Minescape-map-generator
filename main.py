@@ -48,6 +48,6 @@ if __name__ == "__main__":
             for x in range(len(region.tiles[z])):
                 for y in range(len(region.tiles[z][x])):
                     tile = region.tiles[z][x][y]
-                    process_tile(world, z, x, y, regions, region)
+                    process_tile(world, z, x, y, region)
 
     world.save()

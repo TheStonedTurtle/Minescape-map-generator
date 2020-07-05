@@ -5,6 +5,8 @@ from amulet.api.errors import ChunkDoesNotExist
 from amulet.api.world import World
 from amulet.utils import block_coords_to_chunk_coords
 
+from data import MinecraftBlock
+
 
 def initialize_world(world: World):
     minxcoord = -1000
@@ -18,7 +20,7 @@ def initialize_world(world: World):
             world.put_chunk(Chunk(x, z))
 
 
-def set_block(world: World, x: int, y: int, z: int, block: str, options=None):
+def set_block(world: World, x: int, y: int, z: int, block: MinecraftBlock):
     if not (0 <= y <= 255):
         raise IndexError("The supplied Y coordinate must be between 0 and 255")
 
@@ -31,11 +33,15 @@ def set_block(world: World, x: int, y: int, z: int, block: str, options=None):
         chunk = world.get_chunk(cx, cz)
 
     offset_x, offset_z = x - 16 * cx, z - 16 * cz
-    chunk.blocks[offset_x, y, offset_z] = world.palette.get_add_block(Block(namespace="universal_minecraft", base_name=block, properties=options))
-    # print("set block x: " + str(x) + " y: " + str(y) + " z: " + str(z) + " to block " + block)
+    options = None
+    if "material" in block:
+        options = {"material": block.material.replace('"', "")}
+    chunk.blocks[offset_x, y, offset_z] = world.palette.get_add_block(
+        Block(namespace="universal_minecraft", base_name=block.name, properties=options)
+    )
     chunk.changed = True
 
 
-def set_blocks(world: World, x: int, y: int, z: int, block: str, amount, block_options=None, downward=False):
+def set_blocks(world: World, x: int, y: int, z: int, block: MinecraftBlock, amount, downward=False):
     for i in range(0, amount):
-        set_block(world, x, y + (-i if downward else i), z, block, block_options)
+        set_block(world, x, y + (-i if downward else i), z, block)
