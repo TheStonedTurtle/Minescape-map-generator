@@ -9,10 +9,10 @@ from data import MinecraftBlock
 
 
 def initialize_world(world: World):
-    minxcoord = -1000
-    minzcoord = -1000
-    maxxcoord = 5000
-    maxzcoord = 7000
+    minxcoord = 3000
+    minzcoord = 3000
+    maxxcoord = 4000
+    maxzcoord = 4000
     minx, minz = block_coords_to_chunk_coords(minxcoord, minzcoord)
     maxx, maxz = block_coords_to_chunk_coords(maxxcoord, maxzcoord)
     for x in range(minx, maxx):
@@ -24,7 +24,7 @@ def set_block(world: World, x: int, y: int, z: int, block: MinecraftBlock):
     if not (0 <= y <= 255):
         raise IndexError("The supplied Y coordinate must be between 0 and 255")
 
-    cx, cz = block_coords_to_chunk_coords(x, z);
+    cx, cz = block_coords_to_chunk_coords(x, z)
 
     try:
         chunk = world.get_chunk(cx, cz)
@@ -36,6 +36,7 @@ def set_block(world: World, x: int, y: int, z: int, block: MinecraftBlock):
     options = None
     if "material" in block:
         options = {"material": block.material.replace('"', "")}
+
     chunk.blocks[offset_x, y, offset_z] = world.palette.get_add_block(
         Block(namespace="universal_minecraft", base_name=block.name, properties=options)
     )

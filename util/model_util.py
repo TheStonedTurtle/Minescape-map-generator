@@ -12,7 +12,7 @@ class Matrix:
 
     def __getitem__(self, key: Tuple[int, int]) -> FaceData:
         if key[0] >= self.rows or key[1] >= self.cols:
-            print(key[0], key[1], self.rows, self.cols)
+            print("Index Error", key[0], key[1], self.rows, self.cols)
             raise IndexError()
         return self.array[key[0]][key[1]]
 
@@ -149,7 +149,7 @@ class ModelUtil:
         for idx in range(face_count):
             face = section.faces[idx]
             if face.idx >= face_colors:
-                print(len(model.faceColors), face.idx)
+                print("Idx out of bounds", face_colors, face.idx)
                 continue
             hsl_color = model.faceColors[face.idx]
             rgb_tuple = ModelUtil.hslIntToColor(hsl_color)

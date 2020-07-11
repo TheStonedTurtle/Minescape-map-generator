@@ -29,7 +29,6 @@ def process_tile(world: World, z: int, x: int, y: int, region: Region):
         height = rs_height_to_mc(base_height) + PLANE_SIZE * z
     else:
         print("The basetile at this location does not have a height (" + str(base_x + x) + ", " + str(base_y + y) + ")")
-        height = rs_height_to_mc(0) + PLANE_SIZE * z
 
     block_name: str = block_from_tile(tile.underlay_id, tile.overlay_id)
 
@@ -41,17 +40,23 @@ def process_tile(world: World, z: int, x: int, y: int, region: Region):
 
         # Pad the flooring so it isn't directly above the void
         if z == 0:
-            set_blocks(world, x + base_x, height, -(y + base_y), block, 7)
-
-            # Put 3 blocks of dirt under water
             if block == "water":
+                # Put blocks of dirt under water
                 set_blocks(world, x + base_x, height - 1, -(y + base_y), BLOCK_MANAGER.get_block_data("dirt"), 3, True)
+                # Add the single block of water
+                set_block(world, x + base_x, height, -(y + base_y), block)
+            else:
+                # Pad the zero index by a few blocks
+                set_blocks(world, x + base_x, height, -(y + base_y), block, 4, True)
         else:
             set_block(world, x + base_x, height, -(y + base_y), block)
 
     if len(tile.objects) > 0:
         obj: RsObject
+        if len(tile.objects) > 1:
+            print("Tile has multiple objects", z, x, y)
         for obj in tile.objects:
+            print(obj.id, obj.type, obj.orientation)
             sections = Mappings.map_object_to_model_sections(obj.id)
             section: ModelSection
             for section in sections:
@@ -63,12 +68,7 @@ def process_tile(world: World, z: int, x: int, y: int, region: Region):
                 if obj.type == ObjectType.SINGLE_WALL or obj.type == ObjectType.CORNER_WALL:
                     amount = 2
 
-                if block.name == "air":
-                    print("Skipping adding air")
-                    continue
-
                 set_blocks(world, x + base_x, height + 1, -(y + base_y), block, amount)
-                print(x + base_x, height + 1, -(y + base_y), block.name, amount)
 
 
 def rs_height_to_mc(height: int) -> int:
