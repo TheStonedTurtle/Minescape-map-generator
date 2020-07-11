@@ -1,7 +1,7 @@
 import os
 import re
 import argparse
-parser = argparse.ArgumentParser(description="Generates an RuneScape themed MineCraft world from the OSRS map data")
+parser = argparse.ArgumentParser(description="Generates a RuneScape themed MineCraft world from the OSRS map data")
 parser.add_argument("--test", action="store_true",
                     help="Limits the data used for generating the map to the testdata directory")
 args = parser.parse_args()
